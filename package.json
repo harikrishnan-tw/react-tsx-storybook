@@ -39,5 +39,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@storybook/react": "^6.3.10",
+    "babel-loader": "^8.2.2"
   }
 }
