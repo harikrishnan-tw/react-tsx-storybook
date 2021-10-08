@@ -1,0 +1,23 @@
+import { StyledButton } from "../components/StyledButton";
+
+<Meta title='MDX/Button' component={StyledButton} />
+
+# StyledButton
+
+This is a `mui` button which uses `Styled components` to override its default style.
+
+<Canvas>
+  <Story name='all styled material buttons'>
+    <form>
+      <StyledButton buttonType={""}>Default Styled Button</StyledButton>
+      <br />
+      <br />
+      <StyledButton buttonType={"primary"}>Primary Styled Button</StyledButton>
+      <br />
+      <br />
+      <StyledButton buttonType={"secondary"}>
+        Secondary Styled Button
+      </StyledButton>
+    </form>
+  </Story>
+</Canvas>
